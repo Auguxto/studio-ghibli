@@ -26,6 +26,10 @@
   gap: 30px;
 }
 
+.social img {
+  cursor: pointer;
+}
+
 .studio {
   display: grid;
   grid-template-columns: 1fr 1fr;
