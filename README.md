@@ -4,8 +4,7 @@
 
 [Ja está na Vercel](https://studio-ghibli-auguxto.vercel.app/)
 
-![screencapture-localhost-3000-2021-10-04-17_56_45](https://user-images.githubusercontent.com/62861636/135924136-17122b82-c95f-49f6-9028-17f93654b9a6.png)
-
+![screencapture-studio-ghibli-auguxto-vercel-app-2021-10-05-10_20_02](https://user-images.githubusercontent.com/62861636/136031014-65a2cb92-1f73-4a4a-8358-4d64475e8f8f.png)
 
 Como rodar o projeto:
 
