@@ -15,6 +15,9 @@ import trailerButton from "../public/components/trailerButton.svg";
 import ghost1 from "../public/ghost1.png";
 import ghost2 from "../public/ghost2.png";
 
+import { Ghost, Ghost2 } from "../styles/Home.styles";
+import styled from "styled-components";
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -49,20 +52,8 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className={styles.banner}>
-            <Image
-              className={styles.ghost1}
-              loading="lazy"
-              quality={100}
-              src={ghost1}
-              alt="Ghost 1"
-            />
-            <Image
-              className={styles.ghost2}
-              loading="lazy"
-              quality={100}
-              src={ghost2}
-              alt="Ghost 2"
-            />
+            <Ghost className={styles.ghost1} src={ghost1.src} />
+            <Ghost2 className={styles.ghost2} src={ghost2.src} />
           </div>
         </div>
       </main>
